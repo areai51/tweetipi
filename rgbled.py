@@ -4,11 +4,11 @@ import math
 import thread
 
 class rgbled:
-    def __init__(self,rpin,gpin,bpin):
+    def __init__(self,rpin,gpin,bpin,freq):
             self.rpin = rpin
             self.gpin = gpin
             self.bpin = bpin
-            self.freq = 100
+            self.freq = freq
             self.setup(self.rpin,self.gpin,self.bpin,self.freq)
 
 
